@@ -21,4 +21,5 @@ public class App{
  * trabajador hacer ventas y registrar clientes (para puntos)
  * cliente compra productos
  * 
- */
+ */Gay
+ 
