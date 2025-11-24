@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class App{
+public class Menu{
     public static void main(String[] args) {
 /*pinga comes qliao que lo lea */
   }
