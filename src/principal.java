@@ -164,15 +164,19 @@ public class principal {
                         JOptionPane.showMessageDialog(null, "No hay productos registrados.");
                         break;
                     }
+//jeje
+                    String listaP = "PRODUCTOS REGISTRADOS:\n\n";
 
-                    StringBuilder listaP = new StringBuilder("PRODUCTOS REGISTRADOS:\n\n");
                     for (Producto p : inventario.getProductos()) {
-                        listaP.append("- ID: ").append(p.getIdef())
-                                .append(" | Nombre: ").append(p.getName())
-                                .append(" | Precio: $").append(p.getPrice())
-                                .append(" | Cantidad: ").append(p.getCantidad())
-                                .append("\n");
+
+                    listaP = listaP + "- ID: " + p.getIdef()
+                    + " | Nombre: " + p.getName()
+                    + " | Precio: $" + p.getPrice()
+                    + " | Cantidad: " + p.getCantidad()
+                    + "\n";
                     }
+
+JOptionPane.showMessageDialog(null, listaP);
 
                     JOptionPane.showMessageDialog(null, listaP.toString());
                     break;
