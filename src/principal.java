@@ -164,7 +164,7 @@ public class principal {
                         JOptionPane.showMessageDialog(null, "No hay productos registrados.");
                         break;
                     }
-
+//jeje
                     String listaP = "PRODUCTOS REGISTRADOS:\n\n";
 
                     for (Producto p : inventario.getProductos()) {
